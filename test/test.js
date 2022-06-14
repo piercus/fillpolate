@@ -1,5 +1,5 @@
-import test from 'ava';
-import {Fillpolate} from '../index.js';
+const test = require('ava');
+const {Fillpolate} = require('../index.js');
 
 test('simple scenario', t => {
 	const fillpolate = new Fillpolate({

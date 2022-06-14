@@ -1,7 +1,6 @@
 {
   "name": "fillpolate",
   "version": "1.0.0",
-  "type": "module",
   "description": "Extrpolate values by filling the blanks between missing values",
   "main": "index.js",
   "scripts": {
@@ -19,6 +18,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/piercus/fillpolate/issues"
+  },
+  "xo": {
+    "rules": {
+      "unicorn/prefer-module": 0
+    }
   },
   "homepage": "https://github.com/piercus/fillpolate#readme",
   "dependencies": {

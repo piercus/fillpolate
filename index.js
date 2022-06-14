@@ -1,2 +1,4 @@
 
-export {default as Fillpolate} from './lib/fillpolate.js';
+module.exports = {
+	Fillpolate: require('./lib/fillpolate.js'),
+};
