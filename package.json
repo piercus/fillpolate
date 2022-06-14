@@ -1,0 +1,32 @@
+{
+  "name": "fillpolate",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Extrpolate values by filling the blanks between missing values",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piercus/fillpolate.git"
+  },
+  "keywords": [
+    "extrapolate",
+    "objects"
+  ],
+  "author": "Pierre Colle <piercus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piercus/fillpolate/issues"
+  },
+  "homepage": "https://github.com/piercus/fillpolate#readme",
+  "dependencies": {
+    "jsonschema": "^1.4.1"
+  },
+  "devDependencies": {
+    "ava": "^4.3.0",
+    "semantic-release": "^19.0.3",
+    "xo": "^0.50.0"
+  }
+}
