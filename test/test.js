@@ -46,7 +46,7 @@ test('custom scenario', t => {
 			type: 'object',
 			properties: {
 				angleRad: {
-					type: 'integer',
+					type: 'number',
 					fillpolate: {
 						strategy: 'degree',
 						to: a => a / Math.PI * 180,
